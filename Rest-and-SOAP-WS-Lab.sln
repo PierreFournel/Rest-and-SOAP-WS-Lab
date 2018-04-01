@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfSoapVelib", "WcfSoapVelib\WcfSoapVelib.csproj", "{1775FE14-2F10-4B58-B2D0-B6E6744331BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClientVelib", "ConsoleClientVelib\ConsoleClientVelib.csproj", "{2183C7B8-7609-4A8D-8205-87311C2B755A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1775FE14-2F10-4B58-B2D0-B6E6744331BF} = {1775FE14-2F10-4B58-B2D0-B6E6744331BF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUIClientVelib", "GUIClientVelib\GUIClientVelib.csproj", "{DC515D60-5E97-4E59-ABBD-F8ACCC089390}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1775FE14-2F10-4B58-B2D0-B6E6744331BF} = {1775FE14-2F10-4B58-B2D0-B6E6744331BF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1775FE14-2F10-4B58-B2D0-B6E6744331BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1775FE14-2F10-4B58-B2D0-B6E6744331BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1775FE14-2F10-4B58-B2D0-B6E6744331BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1775FE14-2F10-4B58-B2D0-B6E6744331BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2183C7B8-7609-4A8D-8205-87311C2B755A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2183C7B8-7609-4A8D-8205-87311C2B755A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2183C7B8-7609-4A8D-8205-87311C2B755A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2183C7B8-7609-4A8D-8205-87311C2B755A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC515D60-5E97-4E59-ABBD-F8ACCC089390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC515D60-5E97-4E59-ABBD-F8ACCC089390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC515D60-5E97-4E59-ABBD-F8ACCC089390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC515D60-5E97-4E59-ABBD-F8ACCC089390}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50E82C69-2C46-489B-9DD1-C762C702792A}
+	EndGlobalSection
+EndGlobal
